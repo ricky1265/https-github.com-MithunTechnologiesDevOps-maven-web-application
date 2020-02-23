@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>jfrog</id>
 	      <name>ZZ Releases JFrog Repository</name>
-	      <url>http://10.101.218.230:8081/repository/maven/</url>
+	      <url>http://10.40.0.3:8081/repository/maven/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ZZ Technologies Snapshot JFrog Repository </name>
-	      <url>http://10.101.218.230:8081/repository/maven/</url>
+	      <url>http://10.40.0.3:8081/repository/maven/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
