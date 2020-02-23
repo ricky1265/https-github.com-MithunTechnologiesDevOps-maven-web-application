@@ -1,0 +1,16 @@
+<settings ...>
+ <mirrors>
+  <mirror>
+   <mirrorOf>external:*</mirrorOf>
+   <url>${env.MAVEN_MIRROR_URL}</url>
+   <id>mirror</id>
+  </mirror>
+ </mirrors>
+ <servers>
+  <server>
+   <id>mynexus</id>
+   <username>${env.MAVEN_SERVER_USERNAME}</username>
+   <password>${env.MAVEN_SERVER_PASSWORD}</password>
+  </server>
+ </servers>
+</settings>
