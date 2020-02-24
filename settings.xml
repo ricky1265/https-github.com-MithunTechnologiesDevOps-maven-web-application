@@ -10,7 +10,7 @@
     <server>
       <username>admin</username>
       <password>Bismillah@1</password>
-      <id>nexus</id>
+      <id>jfrog</id>
     </server>
   </servers>
   <profiles>
@@ -26,7 +26,7 @@
         </repository>
         <repository>
           <snapshots />
-          <id>nexus</id>
+          <id>jfrog</id>
           <name>ZZ Technologies Snapshot JFrog Repository</name>
           <url>http://10.101.218.230:8081/artifactory/libs-snapshot</url>
         </repository>
@@ -42,7 +42,7 @@
         </pluginRepository>
         <pluginRepository>
           <snapshots />
-          <id>nexus</id>
+          <id>jfrog</id>
           <name>ZZ Technologies Snapshot JFrog Repository</name>
           <url>http://10.101.218.230:8081/artifactory/libs-snapshot</url>
         </pluginRepository>
