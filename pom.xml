@@ -102,9 +102,11 @@
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>jfrog</id>
 	      <name>ZZ Technologies Snapshot JFrog Repository </name>
 	      <url>http://10.40.0.3:8081/repository/maven/</url>
+	      <username>admin</username>
+	      <password>Bismillah@1</password>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
