@@ -99,16 +99,12 @@
 	      <id>jfrog</id>
 	      <name>ZZ Releases JFrog Repository</name>
 	      <url>http://10.101.218.230:8081/repository/maven/</url>
-		    <username>admin</username>
-		    <password>Bismillah@1</password>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>jfrog</id>
 	      <name>ZZ Technologies Snapshot JFrog Repository </name>
 	      <url>http://10.101.218.230:8081/repository/maven/</url>
-	            <username>admin</username>
-	            <password>Bismillah@1</password>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
